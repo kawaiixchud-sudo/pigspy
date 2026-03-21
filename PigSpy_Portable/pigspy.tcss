@@ -1,0 +1,73 @@
+
+/* pigspy.tcss */
+Screen {
+    layers: base overlay;
+    layout: vertical;
+}
+
+#status_widget {
+    dock: top;
+    height: 1;
+    background: $primary-darken-1;
+    color: $text;
+    text-align: center;
+    border-bottom: solid $primary-lighten-1;
+}
+
+ControlPanel {
+    dock: top;
+    height: auto;
+    align-horizontal: center;
+    margin: 1 0;
+}
+
+Button {
+    margin: 0 1;
+    width: 15;
+}
+
+#transcription_log {
+    width: 60%;
+    border: round $primary;
+    background: $surface;
+}
+
+#sidebar {
+    width: 40%;
+    border-left: solid $primary;
+    padding: 1;
+}
+
+#events_list {
+    height: 40%;
+    border: round $secondary;
+    background: $surface;
+    margin-bottom: 1;
+}
+
+KeywordManager {
+    height: 60%;
+    border: round $accent;
+    padding: 1;
+}
+
+#keywords_list {
+    height: 1fr;
+    margin-top: 1;
+}
+
+#audio_controls {
+    height: 3;
+    align: center middle;
+    background: $surface-darken-1;
+    margin: 1 0;
+}
+
+Slider {
+    width: 30;
+}
+
+Footer {
+    dock: bottom;
+    background: $primary-darken-2;
+}
