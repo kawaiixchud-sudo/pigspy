@@ -1,5 +1,5 @@
 PigSpy - Police Scanner Monitor
-A real-time police scanner monitoring application with speech recognition and keyword detection.
+A real-time police scanner monitoring application with speech recognition and keyword detection. all urls are within broadcastify . com please help me i am an intellectual who prolly should become an hero but you can too by helping me with this project 
 Features
 Real-time audio stream monitoring
 Speech-to-text transcription using Whisper
