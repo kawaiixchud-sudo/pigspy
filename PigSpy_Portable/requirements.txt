@@ -10,3 +10,4 @@ sounddevice>=0.4.5
 webrtcvad>=2.0.10
 pydub>=0.25.1
 python-vlc>=3.0.18
+faster-whisper>=1.0.0

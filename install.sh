@@ -12,7 +12,7 @@ echo "Checking for system dependencies..."
 if ! dpkg -l | grep -q libvlc-dev; then
     echo "Installing VLC libraries..."
     if command -v apt-get &> /dev/null; then
-        sudo apt-get update && sudo apt-get install -y libvlc-dev vlc-bin ffmpeg
+        sudo apt-get update && sudo apt-get install -y libvlc-dev vlc-bin ffmpeg portaudio19-dev
     else
         echo "Warning: Could not detect apt-get. Please install libvlc-dev and ffmpeg manually."
     fi
